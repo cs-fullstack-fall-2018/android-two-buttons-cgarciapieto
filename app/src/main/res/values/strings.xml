@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android_two_buttons</string>
+    <string name="button_two">+</string>
+    <string name="player_1_view">0</string>
+    <string name="player_two">0</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="button_One">+</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/clicker_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/button_two"
+        android:textSize="30sp"
+        android:onClick="showButton2"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/player_1"
+        android:layout_width="wrap_content"
+        android:layout_height="248dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="116dp"
+        android:text="@string/player_1_view"
+        android:textAlignment="center"
+        android:textSize="200sp"
+        app:layout_constraintEnd_toStartOf="@+id/player_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player_2"
+        android:layout_height="248dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/player_two"
+        android:textAlignment="center"
+        android:textSize="200sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="129dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/player_1"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorMultiSelectHighlight"
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/player_2"
+        android:textAlignment="center"
+        android:textColor="?attr/colorError"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/clicker_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/button_One"
+        android:textSize="30sp"
+        android:onClick="showButton"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+</android.support.constraint.ConstraintLayout>
